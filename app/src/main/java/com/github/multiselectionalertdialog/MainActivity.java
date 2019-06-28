@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (NameArray != null && NameArray.length > 0) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                    builder.setTitle("Select Resident");
+                    builder.setTitle("Select Persons");
 
                     builder.setMultiChoiceItems(NameArray, checkedItems, new DialogInterface.OnMultiChoiceClickListener() {
                         @Override
